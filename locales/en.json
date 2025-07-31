@@ -1,4 +1,12 @@
 {
-    "heroTitle" : "Where every keystroke is a story, every aroma is a memory",
-    "seeMenu" : "See Menu"
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "location": "Location"
+  },
+  "landingPage": {
+    "heroTitle": "Where every bite is a story, every aroma is a memory",
+    "seeMenu": "See Menu"
+  }
 }
