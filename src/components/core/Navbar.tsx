@@ -1,24 +1,18 @@
-import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const Navbar = () => {
-  const t = useTranslations("navbar");
   return (
-    <header>
-        <div className="px-20">
-          <div className="px-6 py-4 flex items-center justify-between">
-            <div>
-              <h1 >Logo Kopi Kita</h1>
-            </div>
-            <nav className="flex gap-4">
-              <Link href="/">{t("home")}</Link>
-              <Link href="/">{t("about")}</Link>
-              <Link href="/">{t("menu")}</Link>
-              <Link href="/">{t("location")}</Link>
+    <div className="px-20">
+        <div className="px-6 py-4 flex justify-between">
+            <Link href="/" className="font-playfair text-[#6F4E37] font-bold text-2xl">Kopi Kita</Link>
+            <nav className="flex items-center gap-8">
+                <Link href="/" className="font-poppins text-[#6F4E37] ">Beranda</Link>
+                <Link href="/about" className="font-poppins text-[#6F4E37] ">Tentang</Link>
+                <Link href="/menu" className="font-poppins text-[#6F4E37] ">Menu</Link>
+                <Link href="/contact" className="font-poppins text-[#6F4E37] ">Lokasi</Link>
             </nav>
-          </div>
         </div>
-    </header>
+    </div>
   )
 };
 

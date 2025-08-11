@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "daisyui";
+
+.font-playfair {
+  font-family: var(--font-playfair-display);
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
