@@ -18,7 +18,7 @@ const HeroSection = () => {
             Tempat di mana setiap tegukan adalah cerita, setiap aroma adalah
             kenangan
           </p>
-          <button className="btn rounded-full font-poppins bg-[#FFF6E5] text-[#6F4E37]">Lihat Menu</button>
+          <button className="btn rounded-full btn-lg font-poppins bg-[#FFF6E5] text-[#6F4E37]">Lihat Menu</button>
         </div>
       </div>
     </div>

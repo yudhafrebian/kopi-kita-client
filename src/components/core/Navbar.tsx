@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeSwitcher from "../ThemeSwitcher";
 
 const Navbar = () => {
   return (
@@ -6,6 +7,7 @@ const Navbar = () => {
         <div className="px-6 py-4 flex justify-between">
             <Link href="/" className="font-playfair text-[#6F4E37] font-bold text-2xl">Kopi Kita</Link>
             <nav className="flex items-center gap-8">
+                <ThemeSwitcher />
                 <Link href="/" className="font-poppins text-[#6F4E37] ">Beranda</Link>
                 <Link href="/about" className="font-poppins text-[#6F4E37] ">Tentang</Link>
                 <Link href="/menu" className="font-poppins text-[#6F4E37] ">Menu</Link>

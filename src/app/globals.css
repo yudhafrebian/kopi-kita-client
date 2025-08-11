@@ -1,5 +1,7 @@
 @import "tailwindcss";
-@import "daisyui";
+@plugin "daisyui" {
+  themes: light --default, dark --preferslight;
+}
 
 .font-playfair {
   font-family: var(--font-playfair-display);

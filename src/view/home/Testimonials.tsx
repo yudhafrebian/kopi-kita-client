@@ -13,11 +13,11 @@ const TestimonySection = () => {
           Testimoni dari pelanggan setia kami
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+      <div className="flex flex-col md:flex-row gap-8 justify-center mt-16">
         {Testimonies.map((testimony) => (
           <div
             key={testimony.id}
-            className="card bg-base-100 md:w-72 2xl:w-96 shadow-sm"
+            className="card bg-[#FFF6E5] md:w-72 2xl:w-96 shadow-sm"
           >
             <div className="card-body">
               <div className="flex gap-4">
@@ -27,15 +27,34 @@ const TestimonySection = () => {
                   </div>
                 </div>
                 <div>
-                  <h2>{testimony.name}</h2>
+                  <h2 className="font-poppins text-[#6F4E37] font-semibold">{testimony.name}</h2>
                   <div className="rating rating-sm">
-                    <div className="mask mask-star-2 bg-amber-400" aria-label="1 star"></div>
-                    <div className="mask mask-star-2 bg-amber-400" aria-label="2 star"></div>
-                    <div className="mask mask-star-2 bg-amber-400" aria-label="3 star"></div>
-                    <div className="mask mask-star-2 bg-amber-400" aria-label="4 star"></div>
-                    <div className="mask mask-star-2 bg-amber-400" aria-label="5 star" aria-current="true"></div>
+                    <div
+                      className="mask mask-star-2 bg-amber-400"
+                      aria-label="1 star"
+                    ></div>
+                    <div
+                      className="mask mask-star-2 bg-amber-400"
+                      aria-label="2 star"
+                    ></div>
+                    <div
+                      className="mask mask-star-2 bg-amber-400"
+                      aria-label="3 star"
+                    ></div>
+                    <div
+                      className="mask mask-star-2 bg-amber-400"
+                      aria-label="4 star"
+                    ></div>
+                    <div
+                      className="mask mask-star-2 bg-amber-400"
+                      aria-label="5 star"
+                      aria-current="true"
+                    ></div>
                   </div>
                 </div>
+              </div>
+              <div>
+                <p className="text-[#374151] font-poppins mt-6">"{testimony.testimony}"</p>
               </div>
             </div>
           </div>
