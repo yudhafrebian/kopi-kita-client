@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL_DEV = "http://localhost:2890";
-const BASE_URL_PROD = "https://kopi-kita-server-production.up.railway.app";
+const BASE_URL_PROD = "https://kopi-kita-server.vercel.app";
 
 const apiBase = axios.create({
   baseURL: process.env.NODE_ENV === "production" ? BASE_URL_PROD : BASE_URL_DEV,
