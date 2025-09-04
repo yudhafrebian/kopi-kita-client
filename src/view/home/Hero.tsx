@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -18,7 +19,7 @@ const HeroSection = () => {
             Tempat di mana setiap tegukan adalah cerita, setiap aroma adalah
             kenangan
           </p>
-          <button className="btn rounded-full btn-lg font-poppins bg-[#FFF6E5] text-[#6F4E37]">Lihat Menu</button>
+          <Link href="/menu" className="btn rounded-full btn-lg font-poppins bg-[#FFF6E5] text-[#6F4E37]">Lihat Menu</Link>
         </div>
       </div>
     </div>

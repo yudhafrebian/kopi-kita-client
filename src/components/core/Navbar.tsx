@@ -1,7 +1,5 @@
 "use client";
-
 import Link from "next/link";
-import ThemeSwitcher from "../ThemeSwitcher";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
@@ -24,7 +22,6 @@ const Navbar = () => {
           Kopi Kita
         </Link>
         <nav className="flex items-center gap-8">
-          <ThemeSwitcher />
           <Link href="/" className={linkClass("/")}>
             Beranda
           </Link>
@@ -34,7 +31,7 @@ const Navbar = () => {
           <Link href="/menu" className={linkClass("/menu")}>
             Menu
           </Link>
-          <Link href="/contact" className={linkClass("/contact")}>
+          <Link href="/location" className={linkClass("/location")}>
             Lokasi
           </Link>
         </nav>

@@ -4,8 +4,6 @@ import "./globals.css";
 import Navbar from "@/components/core/Navbar";
 import Footer from "@/components/core/Footer";
 
-
-
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
   subsets: ["latin"],
@@ -16,7 +14,6 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-
 
 export const metadata: Metadata = {
   title: "Create Next App",

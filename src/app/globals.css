@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light --default, dark --preferslight;
+  themes: light --default;
 }
+
 
 .font-playfair {
   font-family: var(--font-playfair-display);
@@ -9,4 +10,16 @@
 
 .font-poppins {
   font-family: var(--font-poppins);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+html {
+  -ms-overflow-style: none;
 }

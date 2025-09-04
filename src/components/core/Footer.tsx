@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -12,10 +13,10 @@ const Footer = () => {
       </aside>
       <nav className="font-poppins">
         <h6 className="footer-title text-white">Navigasi</h6>
-        <a className="link link-hover text-[#9CA3AF]">Beranda</a>
-        <a className="link link-hover text-[#9CA3AF]">Tentang Kami</a>
-        <a className="link link-hover text-[#9CA3AF]">Menu</a>
-        <a className="link link-hover text-[#9CA3AF]">Lokasi</a>
+        <Link href={"/"} className="link link-hover text-[#9CA3AF]">Beranda</Link>
+        <Link href={"/about"} className="link link-hover text-[#9CA3AF]">Tentang Kami</Link>
+        <Link href={"/menu"} className="link link-hover text-[#9CA3AF]">Menu</Link>
+        <Link href={"/location"} className="link link-hover text-[#9CA3AF]">Lokasi</Link>
       </nav>
       <nav>
         <h6 className="footer-title text-white font-poppins">Ikuti Kami</h6>
