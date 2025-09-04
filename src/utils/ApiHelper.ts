@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const BASE_URL_DEV = "http://localhost:2890";
-const BASE_URL_PROD = "";
+const BASE_URL_PROD = "https://kopi-kita-server-production.up.railway.app";
 
 const apiBase = axios.create({
-    baseURL: BASE_URL_DEV,
+    baseURL: BASE_URL_PROD ? BASE_URL_PROD : BASE_URL_DEV,
 });
 
 export const fetchMenuCategory = async () => {
