@@ -10,7 +10,7 @@ const FeaturedProductSection = () => {
           <h1>Unggulan</h1>
           <div className="divider"></div>
         </div>
-        <p className="text-lg font-poppins text-[#8B6F47] w-1/2 text-center">
+        <p className="text-lg font-poppins text-[#5B3A1E] w-1/2 text-center">
           Nikmati koleksi kopi terbaik kami
         </p>
       </div>

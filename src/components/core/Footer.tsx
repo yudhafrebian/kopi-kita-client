@@ -12,14 +12,14 @@ const Footer = () => {
         </p>
       </aside>
       <nav className="font-poppins">
-        <h6 className="footer-title text-white">Navigasi</h6>
+        <h2 className="footer-title text-white">Navigasi</h2>
         <Link href={"/"} className="link link-hover text-[#9CA3AF]">Beranda</Link>
         <Link href={"/about"} className="link link-hover text-[#9CA3AF]">Tentang Kami</Link>
         <Link href={"/menu"} className="link link-hover text-[#9CA3AF]">Menu</Link>
         <Link href={"/location"} className="link link-hover text-[#9CA3AF]">Lokasi</Link>
       </nav>
       <nav>
-        <h6 className="footer-title text-white font-poppins">Ikuti Kami</h6>
+        <h2 className="footer-title text-white font-poppins">Ikuti Kami</h2>
         <div className="flex gap-4">
             <Instagram className="text-white hover:scale-110 ease-in-out duration-300 cursor-pointer" />
             <Twitter className="text-white hover:scale-110 ease-in-out duration-300 cursor-pointer" />

@@ -41,6 +41,7 @@ const LocationSection = () => {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          title="Kopi Kita Cafe Location"
         ></iframe>
       </div>
     </div>
