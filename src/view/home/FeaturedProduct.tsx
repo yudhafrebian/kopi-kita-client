@@ -22,6 +22,7 @@ const FeaturedProductSection = () => {
                 className="h-[300px] w-full object-cover"
                 src={product.img_url}
                 alt={product.name}
+                loading="lazy"
               />
             </figure>
             <div className="card-body">
