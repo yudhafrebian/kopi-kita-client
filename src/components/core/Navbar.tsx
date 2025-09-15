@@ -13,7 +13,7 @@ const Navbar = () => {
     }`;
 
   return (
-    <div className="px-20">
+    <div className="px-20 sticky top-0 z-50 bg-white">
       <div className="px-6 py-4 flex justify-between">
         <Link
           href="/"
