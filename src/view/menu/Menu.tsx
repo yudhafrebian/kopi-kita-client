@@ -55,6 +55,7 @@ const MenuSection = async ({ searchParams }: MenuSectionProps) => {
             <figure>
               <img
                 className="h-[300px] w-full object-cover"
+                loading="lazy"
                 src={product.image_url}
                 alt={product.name}
               />

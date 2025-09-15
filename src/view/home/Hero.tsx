@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className="relative w-full h-[700px]">
       <Image
-        src="/assets/hero-banner.png"
+        src="https://res.cloudinary.com/dc4rzqyzq/image/upload/v1757923281/hero-banner_fpajv3.webp"
         alt="hero"
         fill
         className="object-cover"
