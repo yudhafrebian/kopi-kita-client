@@ -10,6 +10,7 @@ const HeroSection = () => {
         fill
         className="object-cover"
         priority
+        fetchPriority="high"
       />
 
       <div className="absolute inset-0 flex items-center px-28 z-10">
