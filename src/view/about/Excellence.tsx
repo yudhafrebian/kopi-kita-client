@@ -22,30 +22,30 @@ const ExcellenceSection = () => {
     },
   ];
   return (
-    <div className="px-44 py-24">
+    <div className="px-8 md:px-20 lg:px-44 py-24">
       <div className="flex flex-col justify-between items-center">
-        <h1 className="font-playfair text-[#6F4E37] text-4xl font-bold">
+        <h1 className="font-playfair text-[#6F4E37] text-2xl md:text-4xl font-bold">
           Keunggulan Kami
         </h1>
         <div className="divider mx-auto w-1/5"></div>
-        <p className="font-poppins text-[#8B6F47]">
+        <p className="font-poppins text-[#8B6F47] text-center">
           Tiga hal yang membuat Kopi Kita istimewa dan berbeda
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-16">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mt-8 md:mt-16">
         {excellence.map((value, index) => (
           <div
             key={index}
-            className="card bg-[#FFF6E5] md:w-72 2xl:w-96 shadow-sm"
+            className="card bg-[#FFF6E5] lg:w-72 2xl:w-96 shadow-sm"
           >
             <div className="card-body flex flex-col justify-center items-center gap-4">
               <div className="btn btn-circle btn-lg bg-[#6F4E37]">
                 <value.icon className="w-6 h-6 text-white"/>
               </div>
-              <h2 className="card-title text-xl font-poppins text-[#6F4E37] font-semibold mt-2">
+              <h2 className="card-title text-xl font-poppins text-[#6F4E37] font-semibold mt-2 text-center">
                 {value.title}
               </h2>
-              <p className="font-poppins text-[#374151] w-3/4 text-center">
+              <p className="font-poppins text-[#374151] lg:w-3/4 text-center">
                 {value.description}
               </p>
             </div>

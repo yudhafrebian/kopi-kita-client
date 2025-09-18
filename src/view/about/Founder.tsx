@@ -2,21 +2,21 @@ import Image from "next/image";
 
 const FounderSection = () => {
   return (
-    <div className="px-44 py-24 bg-[#FFF6E5]">
+    <div className="px-8 md:px-20 lg:px-44 py-24 bg-[#FFF6E5]">
       <div className="flex flex-col justify-between items-center">
-        <h1 className="font-playfair text-[#6F4E37] text-4xl font-bold">
+        <h1 className="font-playfair text-[#6F4E37] text-2xl md:text-4xl font-bold">
           Meet the Founder
         </h1>
         <div className="divider mx-auto w-1/5"></div>
         <p className="font-poppins text-[#8B6F47]">Sang pencipta Kopi Kita</p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-16">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mt-8 md:mt-16">
         <div className="avatar">
-          <div className="w-96 rounded-lg relative">
+          <div className="w-48 md:w-96 rounded-lg relative">
             <Image src="/assets/founder.jpg" alt="founder" fill />
           </div>
         </div>
-        <div className="flex flex-col gap-4 w-1/2 ">
+        <div className="flex flex-col gap-4 lg:w-1/2 ">
           <div className="font-poppins text-[#374151] flex flex-col gap-4 italic">
             <p>
               "Di balik setiap cangkir kopi yang tersaji di Kopi Kita, ada

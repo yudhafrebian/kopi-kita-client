@@ -3,23 +3,23 @@ import Image from "next/image";
 
 const FeaturedProductSection = () => {
   return (
-    <div className="bg-[#FFF6E5] p-20">
+    <div className="bg-[#FFF6E5] p-8 md:p-20">
       <div className="flex flex-col justify-between items-center">
-        <div className="flex flex-col text-center font-playfair text-[#6F4E37] text-5xl font-bold">
+        <div className="flex flex-col text-center font-playfair text-[#6F4E37] text-3xl md:text-5xl font-bold">
           <h1>Menu</h1>
           <h1>Unggulan</h1>
           <div className="divider"></div>
         </div>
-        <p className="text-lg font-poppins text-[#5B3A1E] w-1/2 text-center">
+        <p className="md:text-lg font-poppins text-[#5B3A1E] md:w-1/2 text-center">
           Nikmati koleksi kopi terbaik kami
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
         {featuredProduct.map((product) => (
           <div key={product.id} className="card bg-base-100 md:w-72 2xl:w-96 shadow-sm">
             <figure>
               <img
-                className="h-[300px] w-full object-cover"
+                className="h-[180px] md:h-[200px] lg:h-[300px] w-full object-cover"
                 src={product.img_url}
                 alt={product.name}
                 loading="lazy"

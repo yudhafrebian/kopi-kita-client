@@ -2,14 +2,14 @@ import { Testimonies } from "@/utils/dummyData";
 
 const TestimonySection = () => {
   return (
-    <div className="p-20">
+    <div className="p-8 md:p-20">
       <div className="flex flex-col justify-between items-center">
-        <div className="flex flex-col text-center font-playfair text-[#6F4E37] text-5xl font-bold">
+        <div className="flex flex-col text-center font-playfair text-[#6F4E37] text-3xl md:text-5xl font-bold">
           <h1>Kata</h1>
           <h1>Mereka</h1>
           <div className="divider divider-[#6F4E37]"></div>
         </div>
-        <p className="text-lg font-poppins text-[#8B6F47] w-1/2 text-center">
+        <p className="md:text-lg font-poppins text-[#8B6F47] md:w-1/2 text-center">
           Testimoni dari pelanggan setia kami
         </p>
       </div>

@@ -22,17 +22,17 @@ const ValueSection = () => {
     },
   ];
   return (
-    <div className="px-44 py-24">
+    <div className="px-8 md:px-20 lg:px-44 py-12 md:py-24">
       <div className="flex flex-col justify-between items-center gap-3">
-        <h1 className="font-playfair text-[#6F4E37] text-4xl font-bold">
+        <h1 className="font-playfair text-[#6F4E37] text-2xl md:text-4xl font-bold">
           Filosofi & Nilai
         </h1>
-        <p className="font-poppins text-[#8B6F47]">
+        <p className="font-poppins text-[#8B6F47] text-center">
           Setiap tegukan adalah cerminan dari dedikasi kami terhadap kualitas
           dan komunitas
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-16">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8 md:mt-16">
         {values.map((value, index) => (
           <div
             key={index}
@@ -45,7 +45,7 @@ const ValueSection = () => {
               <h2 className="card-title text-xl font-poppins text-[#6F4E37] font-semibold mt-2">
                 {value.title}
               </h2>
-              <p className="font-poppins text-[#374151] w-3/4 text-center">
+              <p className="font-poppins text-[#374151] lg:w-3/4 text-center">
                 {value.description}
               </p>
             </div>

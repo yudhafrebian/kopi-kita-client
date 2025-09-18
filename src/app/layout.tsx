@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Kopi Kita Cafe",
+  title: "Beranda | Kopi Kita Cafe",
   description:
     "Kopi Kita adalah toko kopi online yang menyediakan berbagai pilihan kopi berkualitas, mulai dari biji kopi pilihan hingga menu racikan spesial. Nikmati pengalaman ngopi terbaik dari rumah Anda.",
   keywords: [
