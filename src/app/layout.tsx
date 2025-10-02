@@ -53,6 +53,11 @@ export const metadata: Metadata = {
       "Temukan kopi favoritmu di Kopi Kita. Dari biji kopi pilihan hingga menu racikan spesial, semuanya tersedia secara online.",
     images: ["/og-image.png"],
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png", 
+  },
 };
 
 export default function RootLayout({

@@ -1,5 +1,6 @@
 "use client";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -18,8 +19,9 @@ const Navbar = () => {
       <div className="px-6 py-2 md:py-4 flex items-center justify-between">
         <Link
           href="/"
-          className="font-playfair text-[#6F4E37] font-bold text-2xl"
+          className="font-playfair text-[#6F4E37] font-bold text-2xl flex items-center gap-2"
         >
+          <Image src="/assets/logo.png" alt="logo" width={36} height={36} />
           Kopi Kita
         </Link>
         <nav>
